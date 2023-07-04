@@ -29,7 +29,7 @@ html,body{
 }
 
 ::-webkit-scrollbar-thumb{
-  background:#81bcd0;
+  background:#a5c3cd;
   border-radius: 10px;
 }
 
@@ -223,7 +223,7 @@ body {
 
   .name-Container{
     width: 100%;
-    height: 90vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -245,6 +245,48 @@ body {
     text-transform: uppercase;
     letter-spacing: 2.2px;
     color: #3690d0;
+  }
+
+  .container-scroll-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .scroll-icon{
+    width: 2em;
+    height: 3em;
+    border: .3em solid white;
+    border-radius: 2em;
+    position: relative;
+    margin: 2em;
+    bottom: 0;
+  }
+
+  .scroll-icon.ex-1 .wheel{
+    position: absolute;
+    width: .6em;
+    height: .6em;
+    background-color: white;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, 0);
+    border-radius: .6em;
+    animation: ex-1-wheel 1s ease-in-out infinite;
+  }
+
+  @keyframes ex-1-wheel{
+    0%{
+      transform: translate(-50%, 0);
+      opacity: 0;
+    }
+    20%, 70%{
+      opacity: 1;
+    }
+    90%, 100%{
+      transform: translate(-50%, 150%);
+      opacity: 0;
+    }
   }
 
   #aboutMe{
