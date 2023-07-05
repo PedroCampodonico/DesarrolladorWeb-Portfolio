@@ -324,12 +324,13 @@ body {
   }
 
   .container-text-aboutMe{
-    width: 40%;
-    height: 250px;
+    width: 45%;
+    height: auto;
     box-sizing: border-box;
     border: 20px;
     text-align: justify;   
     position: relative;
+    align-items: center;
   }
 
   .container-text-aboutMe h2{
@@ -343,24 +344,19 @@ body {
     font-size: var(--xlg);
     color: white;
     margin: 0px 0 10px 0;
-    z-index: -2;
-  }
-
-  .container-text-aboutMe h1::after{
-    transition: all 0.1s ease-in-out;
-    content: "";
-    position: absolute;
-    z-index: -1;
-    height: 0.3em;
-    width: 25%;
-    top: 18%;
-    left: 1.3%;
-    background: linear-gradient(65deg, #DF058D 0%, #DF058D 100%, rgba(255, 209, 0, 0) 100%);
+    z-index: -2;    
+    text-decoration: 6px underline #9681EB;
   }
 
   .container-text-aboutMe p{
     color: white;
     font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .container-text-aboutMe p span a{
+    color: #FF9EAA;
+    text-decoration: none;
   }
 
   #tecnologies{
