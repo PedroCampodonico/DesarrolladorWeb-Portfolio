@@ -26,3 +26,6 @@ Este repositorio contiene mi portfolio personal como desarrollador web, donde ap
 
 ![Captura de pantalla 1](/screenshots/screenshot1.png)
 ![Captura de pantalla 2](/screenshots/screenshot2.png)
+![Captura de pantalla 1](/screenshots/screenshot3.png)
+![Captura de pantalla 2](/screenshots/screenshot4.png)
+![Captura de pantalla 1](/screenshots/screenshot5.png)

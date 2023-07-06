@@ -321,6 +321,14 @@ body {
     height: 30vw;
     box-sizing: border-box;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+
+  .image-profile{
+    width: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
   }
 
   .container-text-aboutMe{
@@ -743,11 +751,8 @@ body {
       height:auto;
     }
     .container-image-profile{
-      display: flex;
       margin: 40px 0 60px 0;
       height: 50%;
-      justify-content: center;
-      align-items: center;
     }
     .container-text-aboutMe{
       margin-bottom: 40px;
@@ -757,6 +762,12 @@ body {
     .container-image-profile div div{
       width: 160px;
       height: 160px;
+      box-sizing: border-box;
+    }
+
+    .image-profile{
+      width: 100%;
+      object-fit: cover;
     }
 
     .carousel-anterior,
