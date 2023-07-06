@@ -490,11 +490,13 @@ body {
 
   .carousel-element img{
     border-radius: 10px;
+    width: 250px;
+    height: 125px;
   }
 
   .carousel-element:hover{
     cursor: pointer;
-    opacity: 80%;
+    opacity: 40%;
   }
 
   .carousel-indicadores .glider-dot {
