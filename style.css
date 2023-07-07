@@ -642,6 +642,7 @@ body {
     }
 
     .container-contact input[type="text"],
+    .container-contact input[type="email"],
     .container-contact textarea {
       width: 100%;
       padding: 10px;
